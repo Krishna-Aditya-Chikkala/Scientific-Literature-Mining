@@ -1,0 +1,224 @@
+2025-04-04 17:30:59,797 - INFO - Use pytorch device_name: cpu
+2025-04-04 17:30:59,798 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 17:30:59,800 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-04 17:31:00,047 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-04 17:31:00,300 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-04-04 17:31:00,537 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-04-04 17:31:00,773 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-04 17:31:01,033 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-04-04 17:31:01,300 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-04-04 17:31:01,857 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-04-04 17:31:02,151 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6759
+2025-04-04 17:31:02,392 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6759
+2025-04-04 17:31:42,860 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=genetic+algorithm&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-04 17:31:42,862 - DEBUG - Starting new HTTPS connection (1): export.arxiv.org:443
+2025-04-04 17:31:46,378 - DEBUG - https://export.arxiv.org:443 "GET /api/query?search_query=genetic+algorithm&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100 HTTP/1.1" 200 47900
+2025-04-04 17:31:47,091 - INFO - Got first page: 100 of 288382 total results
+2025-04-04 17:31:47,092 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:31:47,158 - DEBUG - http://arxiv.org:80 "GET /pdf/1308.4675v2 HTTP/1.1" 200 287502
+2025-04-04 17:31:47,751 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:31:47,768 - DEBUG - http://arxiv.org:80 "GET /pdf/1209.4847v1 HTTP/1.1" 200 430003
+2025-04-04 17:31:48,657 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:31:48,671 - DEBUG - http://arxiv.org:80 "GET /pdf/1404.0868v1 HTTP/1.1" 200 105587
+2025-04-04 17:31:49,972 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:31:49,982 - DEBUG - http://arxiv.org:80 "GET /pdf/1209.2717v1 HTTP/1.1" 200 618971
+2025-04-04 17:31:55,005 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:31:55,023 - DEBUG - http://arxiv.org:80 "GET /pdf/1911.00490v1 HTTP/1.1" 200 283053
+2025-04-04 17:31:55,573 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:31:55,588 - DEBUG - http://arxiv.org:80 "GET /pdf/1104.1162v1 HTTP/1.1" 200 193961
+2025-04-04 17:32:02,669 - INFO - adding document #0 to Dictionary<0 unique tokens: []>
+2025-04-04 17:32:02,670 - INFO - built Dictionary<606 unique tokens: ['000', '001', '002', '006', '0105']...> from 1 documents (total 1796 corpus positions)
+2025-04-04 17:32:02,680 - DEBUG - starting a new internal lifecycle event log for Dictionary
+2025-04-04 17:32:02,680 - INFO - Dictionary lifecycle event {'msg': "built Dictionary<606 unique tokens: ['000', '001', '002', '006', '0105']...> from 1 documents (total 1796 corpus positions)", 'datetime': '2025-04-04T17:32:02.670160', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22631-SP0', 'event': 'created'}
+2025-04-04 17:32:02,681 - INFO - using symmetric alpha at 0.3333333333333333
+2025-04-04 17:32:02,681 - INFO - using symmetric eta at 0.3333333333333333
+2025-04-04 17:32:02,681 - INFO - using serial LDA version on this node
+2025-04-04 17:32:02,681 - INFO - running online (multi-pass) LDA training, 3 topics, 10 passes over the supplied corpus of 1 documents, updating model once every 1 documents, evaluating perplexity every 1 documents, iterating 50x with a convergence threshold of 0.001000
+2025-04-04 17:32:02,683 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,685 - INFO - -7.261 per-word bound, 153.4 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,685 - INFO - PROGRESS: pass 0, at document #1/1
+2025-04-04 17:32:02,686 - DEBUG - updating topics
+2025-04-04 17:32:02,687 - INFO - topic #0 (0.333): 0.045*"chromosome" + 0.021*"genetic" + 0.016*"gen" + 0.014*"abs" + 0.011*"groupoid" + 0.011*"groupoids" + 0.010*"process" + 0.010*"number" + 0.009*"algorithm" + 0.009*"chromosomes"
+2025-04-04 17:32:02,687 - INFO - topic #1 (0.333): 0.045*"chromosome" + 0.036*"genetic" + 0.017*"abs" + 0.017*"gen" + 0.015*"algorithm" + 0.015*"number" + 0.012*"groupoids" + 0.010*"crossover" + 0.010*"chromosomes" + 0.010*"value"
+2025-04-04 17:32:02,688 - INFO - topic #2 (0.333): 0.031*"chromosome" + 0.021*"genetic" + 0.013*"gen" + 0.012*"abs" + 0.011*"algorithm" + 0.011*"groupoids" + 0.010*"groupoid" + 0.009*"number" + 0.008*"f_obj" + 0.008*"set"
+2025-04-04 17:32:02,688 - INFO - topic diff=0.957413, rho=1.000000
+2025-04-04 17:32:02,688 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,690 - INFO - -6.334 per-word bound, 80.7 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,690 - INFO - PROGRESS: pass 1, at document #1/1
+2025-04-04 17:32:02,691 - DEBUG - updating topics
+2025-04-04 17:32:02,691 - INFO - topic #0 (0.333): 0.033*"chromosome" + 0.016*"genetic" + 0.012*"gen" + 0.011*"abs" + 0.009*"groupoid" + 0.008*"groupoids" + 0.008*"process" + 0.008*"number" + 0.007*"algorithm" + 0.007*"chromosomes"
+2025-04-04 17:32:02,692 - INFO - topic #1 (0.333): 0.049*"chromosome" + 0.034*"genetic" + 0.018*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.013*"groupoids" + 0.010*"groupoid" + 0.010*"chromosomes" + 0.010*"crossover"
+2025-04-04 17:32:02,692 - INFO - topic #2 (0.333): 0.021*"chromosome" + 0.014*"genetic" + 0.009*"gen" + 0.009*"abs" + 0.008*"algorithm" + 0.008*"groupoids" + 0.007*"groupoid" + 0.006*"number" + 0.006*"f_obj" + 0.006*"set"
+2025-04-04 17:32:02,692 - INFO - topic diff=0.216609, rho=0.577350
+2025-04-04 17:32:02,692 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,695 - INFO - -6.193 per-word bound, 73.2 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,695 - INFO - PROGRESS: pass 2, at document #1/1
+2025-04-04 17:32:02,695 - DEBUG - updating topics
+2025-04-04 17:32:02,696 - INFO - topic #0 (0.333): 0.022*"chromosome" + 0.011*"genetic" + 0.009*"gen" + 0.008*"abs" + 0.006*"groupoid" + 0.006*"groupoids" + 0.006*"process" + 0.006*"number" + 0.005*"algorithm" + 0.005*"chromosomes"
+2025-04-04 17:32:02,696 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.018*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,697 - INFO - topic #2 (0.333): 0.014*"chromosome" + 0.009*"genetic" + 0.006*"gen" + 0.006*"abs" + 0.006*"algorithm" + 0.005*"groupoids" + 0.005*"groupoid" + 0.005*"number" + 0.004*"f_obj" + 0.004*"set"
+2025-04-04 17:32:02,697 - INFO - topic diff=0.139356, rho=0.500000
+2025-04-04 17:32:02,697 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,699 - INFO - -6.140 per-word bound, 70.5 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,699 - INFO - PROGRESS: pass 3, at document #1/1
+2025-04-04 17:32:02,700 - DEBUG - updating topics
+2025-04-04 17:32:02,700 - INFO - topic #0 (0.333): 0.015*"chromosome" + 0.008*"genetic" + 0.006*"gen" + 0.006*"abs" + 0.005*"groupoid" + 0.005*"groupoids" + 0.004*"process" + 0.004*"number" + 0.004*"algorithm" + 0.004*"chromosomes"
+2025-04-04 17:32:02,700 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,700 - INFO - topic #2 (0.333): 0.009*"chromosome" + 0.007*"genetic" + 0.005*"gen" + 0.004*"abs" + 0.004*"algorithm" + 0.004*"groupoids" + 0.004*"groupoid" + 0.004*"number" + 0.003*"f_obj" + 0.003*"set"
+2025-04-04 17:32:02,701 - INFO - topic diff=0.095145, rho=0.447214
+2025-04-04 17:32:02,701 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,703 - INFO - -6.116 per-word bound, 69.4 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,703 - INFO - PROGRESS: pass 4, at document #1/1
+2025-04-04 17:32:02,703 - DEBUG - updating topics
+2025-04-04 17:32:02,704 - INFO - topic #0 (0.333): 0.010*"chromosome" + 0.006*"genetic" + 0.005*"gen" + 0.004*"abs" + 0.004*"groupoid" + 0.004*"groupoids" + 0.003*"process" + 0.003*"number" + 0.003*"algorithm" + 0.003*"chromosomes"
+2025-04-04 17:32:02,704 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,704 - INFO - topic #2 (0.333): 0.007*"chromosome" + 0.005*"genetic" + 0.004*"gen" + 0.003*"abs" + 0.003*"algorithm" + 0.003*"groupoids" + 0.003*"groupoid" + 0.003*"number" + 0.003*"f_obj" + 0.003*"set"
+2025-04-04 17:32:02,704 - INFO - topic diff=0.065220, rho=0.408248
+2025-04-04 17:32:02,704 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,707 - INFO - -6.105 per-word bound, 68.8 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,707 - INFO - PROGRESS: pass 5, at document #1/1
+2025-04-04 17:32:02,707 - DEBUG - updating topics
+2025-04-04 17:32:02,708 - INFO - topic #0 (0.333): 0.007*"chromosome" + 0.004*"genetic" + 0.004*"gen" + 0.003*"abs" + 0.003*"groupoid" + 0.003*"groupoids" + 0.003*"process" + 0.003*"number" + 0.003*"algorithm" + 0.003*"chromosomes"
+2025-04-04 17:32:02,708 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,708 - INFO - topic #2 (0.333): 0.005*"chromosome" + 0.004*"genetic" + 0.003*"gen" + 0.003*"abs" + 0.003*"algorithm" + 0.003*"groupoids" + 0.003*"groupoid" + 0.002*"number" + 0.002*"f_obj" + 0.002*"set"
+2025-04-04 17:32:02,708 - INFO - topic diff=0.044650, rho=0.377964
+2025-04-04 17:32:02,708 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,711 - INFO - -6.099 per-word bound, 68.5 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,711 - INFO - PROGRESS: pass 6, at document #1/1
+2025-04-04 17:32:02,711 - DEBUG - updating topics
+2025-04-04 17:32:02,711 - INFO - topic #0 (0.333): 0.006*"chromosome" + 0.003*"genetic" + 0.003*"gen" + 0.003*"abs" + 0.003*"groupoid" + 0.002*"groupoids" + 0.002*"process" + 0.002*"number" + 0.002*"algorithm" + 0.002*"chromosomes"
+2025-04-04 17:32:02,712 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,712 - INFO - topic #2 (0.333): 0.004*"chromosome" + 0.003*"genetic" + 0.002*"gen" + 0.002*"abs" + 0.002*"algorithm" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"number" + 0.002*"f_obj" + 0.002*"set"
+2025-04-04 17:32:02,712 - INFO - topic diff=0.030593, rho=0.353553
+2025-04-04 17:32:02,712 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,715 - INFO - -6.096 per-word bound, 68.4 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,715 - INFO - PROGRESS: pass 7, at document #1/1
+2025-04-04 17:32:02,715 - DEBUG - updating topics
+2025-04-04 17:32:02,716 - INFO - topic #0 (0.333): 0.004*"chromosome" + 0.003*"genetic" + 0.003*"gen" + 0.002*"abs" + 0.002*"groupoid" + 0.002*"groupoids" + 0.002*"process" + 0.002*"number" + 0.002*"algorithm" + 0.002*"chromosomes"
+2025-04-04 17:32:02,716 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,716 - INFO - topic #2 (0.333): 0.003*"chromosome" + 0.003*"genetic" + 0.002*"gen" + 0.002*"abs" + 0.002*"algorithm" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"number" + 0.002*"f_obj" + 0.002*"set"
+2025-04-04 17:32:02,716 - INFO - topic diff=0.021040, rho=0.333333
+2025-04-04 17:32:02,716 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,718 - INFO - -6.095 per-word bound, 68.3 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,718 - INFO - PROGRESS: pass 8, at document #1/1
+2025-04-04 17:32:02,719 - DEBUG - updating topics
+2025-04-04 17:32:02,719 - INFO - topic #0 (0.333): 0.003*"chromosome" + 0.002*"genetic" + 0.002*"gen" + 0.002*"abs" + 0.002*"groupoid" + 0.002*"groupoids" + 0.002*"process" + 0.002*"number" + 0.002*"algorithm" + 0.002*"chromosomes"
+2025-04-04 17:32:02,719 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,719 - INFO - topic #2 (0.333): 0.003*"chromosome" + 0.002*"genetic" + 0.002*"gen" + 0.002*"abs" + 0.002*"algorithm" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"number" + 0.002*"f_obj" + 0.002*"set"
+2025-04-04 17:32:02,719 - INFO - topic diff=0.014560, rho=0.316228
+2025-04-04 17:32:02,719 - DEBUG - bound: at document #0
+2025-04-04 17:32:02,723 - INFO - -6.094 per-word bound, 68.3 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:32:02,723 - INFO - PROGRESS: pass 9, at document #1/1
+2025-04-04 17:32:02,723 - DEBUG - updating topics
+2025-04-04 17:32:02,724 - INFO - topic #0 (0.333): 0.003*"chromosome" + 0.002*"genetic" + 0.002*"gen" + 0.002*"abs" + 0.002*"groupoid" + 0.002*"groupoids" + 0.002*"process" + 0.002*"number" + 0.002*"algorithm" + 0.002*"chromosomes"
+2025-04-04 17:32:02,724 - INFO - topic #1 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"chromosomes" + 0.010*"process"
+2025-04-04 17:32:02,724 - INFO - topic #2 (0.333): 0.002*"chromosome" + 0.002*"genetic" + 0.002*"gen" + 0.002*"abs" + 0.002*"algorithm" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"number" + 0.002*"f_obj" + 0.002*"set"
+2025-04-04 17:32:02,724 - INFO - topic diff=0.010156, rho=0.301511
+2025-04-04 17:32:02,724 - DEBUG - starting a new internal lifecycle event log for LdaModel
+2025-04-04 17:32:02,724 - INFO - LdaModel lifecycle event {'msg': 'trained LdaModel<num_terms=606, num_topics=3, decay=0.5, chunksize=2000> in 0.04s', 'datetime': '2025-04-04T17:32:02.724022', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22631-SP0', 'event': 'created'}
+2025-04-04 17:33:43,342 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=genetic+algorithm&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-04 17:33:43,344 - DEBUG - Starting new HTTPS connection (1): export.arxiv.org:443
+2025-04-04 17:33:46,518 - DEBUG - https://export.arxiv.org:443 "GET /api/query?search_query=genetic+algorithm&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100 HTTP/1.1" 200 47900
+2025-04-04 17:33:47,259 - INFO - Got first page: 100 of 288382 total results
+2025-04-04 17:33:47,260 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:33:47,396 - DEBUG - http://arxiv.org:80 "GET /pdf/1308.4675v2 HTTP/1.1" 200 287502
+2025-04-04 17:33:47,999 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:33:48,012 - DEBUG - http://arxiv.org:80 "GET /pdf/1209.4847v1 HTTP/1.1" 200 430003
+2025-04-04 17:33:48,836 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:33:48,849 - DEBUG - http://arxiv.org:80 "GET /pdf/1404.0868v1 HTTP/1.1" 200 105587
+2025-04-04 17:33:50,148 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:33:50,163 - DEBUG - http://arxiv.org:80 "GET /pdf/1209.2717v1 HTTP/1.1" 200 618971
+2025-04-04 17:33:55,340 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:33:55,390 - DEBUG - http://arxiv.org:80 "GET /pdf/1911.00490v1 HTTP/1.1" 200 283053
+2025-04-04 17:33:55,918 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-04-04 17:33:55,932 - DEBUG - http://arxiv.org:80 "GET /pdf/1104.1162v1 HTTP/1.1" 200 193961
+2025-04-04 17:34:01,086 - INFO - adding document #0 to Dictionary<0 unique tokens: []>
+2025-04-04 17:34:01,088 - INFO - built Dictionary<606 unique tokens: ['000', '001', '002', '006', '0105']...> from 1 documents (total 1796 corpus positions)
+2025-04-04 17:34:01,088 - DEBUG - starting a new internal lifecycle event log for Dictionary
+2025-04-04 17:34:01,088 - INFO - Dictionary lifecycle event {'msg': "built Dictionary<606 unique tokens: ['000', '001', '002', '006', '0105']...> from 1 documents (total 1796 corpus positions)", 'datetime': '2025-04-04T17:34:01.088442', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22631-SP0', 'event': 'created'}
+2025-04-04 17:34:01,089 - INFO - using symmetric alpha at 0.3333333333333333
+2025-04-04 17:34:01,089 - INFO - using symmetric eta at 0.3333333333333333
+2025-04-04 17:34:01,089 - INFO - using serial LDA version on this node
+2025-04-04 17:34:01,089 - INFO - running online (multi-pass) LDA training, 3 topics, 10 passes over the supplied corpus of 1 documents, updating model once every 1 documents, evaluating perplexity every 1 documents, iterating 50x with a convergence threshold of 0.001000
+2025-04-04 17:34:01,089 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,092 - INFO - -7.252 per-word bound, 152.5 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,092 - INFO - PROGRESS: pass 0, at document #1/1
+2025-04-04 17:34:01,093 - DEBUG - updating topics
+2025-04-04 17:34:01,093 - INFO - topic #0 (0.333): 0.045*"chromosome" + 0.021*"genetic" + 0.014*"number" + 0.013*"abs" + 0.012*"gen" + 0.012*"groupoids" + 0.010*"groupoid" + 0.010*"chromosomes" + 0.009*"algorithm" + 0.009*"process"
+2025-04-04 17:34:01,093 - INFO - topic #1 (0.333): 0.032*"chromosome" + 0.028*"genetic" + 0.018*"abs" + 0.013*"algorithm" + 0.012*"gen" + 0.011*"groupoids" + 0.011*"chromosomes" + 0.010*"number" + 0.010*"value" + 0.009*"groupoid"
+2025-04-04 17:34:01,093 - INFO - topic #2 (0.333): 0.047*"chromosome" + 0.033*"genetic" + 0.021*"gen" + 0.016*"abs" + 0.015*"algorithm" + 0.012*"number" + 0.012*"groupoids" + 0.010*"groupoid" + 0.009*"process" + 0.009*"f_obj"
+2025-04-04 17:34:01,093 - INFO - topic diff=0.942950, rho=1.000000
+2025-04-04 17:34:01,094 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,096 - INFO - -6.371 per-word bound, 82.7 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,097 - INFO - PROGRESS: pass 1, at document #1/1
+2025-04-04 17:34:01,098 - DEBUG - updating topics
+2025-04-04 17:34:01,098 - INFO - topic #0 (0.333): 0.032*"chromosome" + 0.015*"genetic" + 0.010*"number" + 0.009*"abs" + 0.009*"gen" + 0.009*"groupoids" + 0.007*"groupoid" + 0.007*"chromosomes" + 0.007*"algorithm" + 0.007*"process"
+2025-04-04 17:34:01,098 - INFO - topic #1 (0.333): 0.023*"chromosome" + 0.020*"genetic" + 0.013*"abs" + 0.009*"algorithm" + 0.009*"gen" + 0.009*"groupoids" + 0.008*"chromosomes" + 0.008*"number" + 0.007*"value" + 0.007*"groupoid"
+2025-04-04 17:34:01,098 - INFO - topic #2 (0.333): 0.049*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.017*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.013*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"f_obj"
+2025-04-04 17:34:01,098 - INFO - topic diff=0.226175, rho=0.577350
+2025-04-04 17:34:01,098 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,101 - INFO - -6.206 per-word bound, 73.8 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,102 - INFO - PROGRESS: pass 2, at document #1/1
+2025-04-04 17:34:01,102 - DEBUG - updating topics
+2025-04-04 17:34:01,102 - INFO - topic #0 (0.333): 0.022*"chromosome" + 0.010*"genetic" + 0.007*"number" + 0.007*"abs" + 0.006*"gen" + 0.006*"groupoids" + 0.005*"groupoid" + 0.005*"chromosomes" + 0.005*"algorithm" + 0.005*"process"
+2025-04-04 17:34:01,102 - INFO - topic #1 (0.333): 0.016*"chromosome" + 0.014*"genetic" + 0.009*"abs" + 0.007*"algorithm" + 0.006*"gen" + 0.006*"groupoids" + 0.006*"chromosomes" + 0.006*"number" + 0.005*"value" + 0.005*"groupoid"
+2025-04-04 17:34:01,104 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.013*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,104 - INFO - topic diff=0.144827, rho=0.500000
+2025-04-04 17:34:01,104 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,106 - INFO - -6.147 per-word bound, 70.9 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,106 - INFO - PROGRESS: pass 3, at document #1/1
+2025-04-04 17:34:01,106 - DEBUG - updating topics
+2025-04-04 17:34:01,107 - INFO - topic #0 (0.333): 0.014*"chromosome" + 0.007*"genetic" + 0.005*"number" + 0.005*"abs" + 0.005*"gen" + 0.005*"groupoids" + 0.004*"groupoid" + 0.004*"chromosomes" + 0.004*"algorithm" + 0.004*"process"
+2025-04-04 17:34:01,107 - INFO - topic #1 (0.333): 0.011*"chromosome" + 0.010*"genetic" + 0.007*"abs" + 0.005*"algorithm" + 0.005*"gen" + 0.005*"groupoids" + 0.004*"chromosomes" + 0.004*"number" + 0.004*"value" + 0.004*"groupoid"
+2025-04-04 17:34:01,107 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,107 - INFO - topic diff=0.099943, rho=0.447214
+2025-04-04 17:34:01,107 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,110 - INFO - -6.120 per-word bound, 69.5 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,110 - INFO - PROGRESS: pass 4, at document #1/1
+2025-04-04 17:34:01,110 - DEBUG - updating topics
+2025-04-04 17:34:01,110 - INFO - topic #0 (0.333): 0.010*"chromosome" + 0.005*"genetic" + 0.004*"number" + 0.004*"abs" + 0.004*"gen" + 0.004*"groupoids" + 0.003*"groupoid" + 0.003*"chromosomes" + 0.003*"algorithm" + 0.003*"process"
+2025-04-04 17:34:01,110 - INFO - topic #1 (0.333): 0.008*"chromosome" + 0.007*"genetic" + 0.005*"abs" + 0.004*"algorithm" + 0.004*"gen" + 0.004*"groupoids" + 0.004*"chromosomes" + 0.003*"number" + 0.003*"value" + 0.003*"groupoid"
+2025-04-04 17:34:01,110 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,112 - INFO - topic diff=0.069271, rho=0.408248
+2025-04-04 17:34:01,112 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,114 - INFO - -6.107 per-word bound, 68.9 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,114 - INFO - PROGRESS: pass 5, at document #1/1
+2025-04-04 17:34:01,115 - DEBUG - updating topics
+2025-04-04 17:34:01,115 - INFO - topic #0 (0.333): 0.007*"chromosome" + 0.004*"genetic" + 0.003*"number" + 0.003*"abs" + 0.003*"gen" + 0.003*"groupoids" + 0.003*"groupoid" + 0.003*"chromosomes" + 0.003*"algorithm" + 0.003*"process"
+2025-04-04 17:34:01,116 - INFO - topic #1 (0.333): 0.006*"chromosome" + 0.005*"genetic" + 0.004*"abs" + 0.003*"algorithm" + 0.003*"gen" + 0.003*"groupoids" + 0.003*"chromosomes" + 0.003*"number" + 0.003*"value" + 0.003*"groupoid"
+2025-04-04 17:34:01,116 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,116 - INFO - topic diff=0.047924, rho=0.377964
+2025-04-04 17:34:01,116 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,118 - INFO - -6.100 per-word bound, 68.6 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,119 - INFO - PROGRESS: pass 6, at document #1/1
+2025-04-04 17:34:01,119 - DEBUG - updating topics
+2025-04-04 17:34:01,119 - INFO - topic #0 (0.333): 0.005*"chromosome" + 0.003*"genetic" + 0.003*"number" + 0.003*"abs" + 0.002*"gen" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"chromosomes" + 0.002*"algorithm" + 0.002*"process"
+2025-04-04 17:34:01,120 - INFO - topic #1 (0.333): 0.004*"chromosome" + 0.004*"genetic" + 0.003*"abs" + 0.003*"algorithm" + 0.003*"gen" + 0.003*"groupoids" + 0.002*"chromosomes" + 0.002*"number" + 0.002*"value" + 0.002*"groupoid"
+2025-04-04 17:34:01,120 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,120 - INFO - topic diff=0.033141, rho=0.353553
+2025-04-04 17:34:01,120 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,122 - INFO - -6.097 per-word bound, 68.4 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,122 - INFO - PROGRESS: pass 7, at document #1/1
+2025-04-04 17:34:01,123 - DEBUG - updating topics
+2025-04-04 17:34:01,123 - INFO - topic #0 (0.333): 0.004*"chromosome" + 0.003*"genetic" + 0.002*"number" + 0.002*"abs" + 0.002*"gen" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"chromosomes" + 0.002*"algorithm" + 0.002*"process"
+2025-04-04 17:34:01,123 - INFO - topic #1 (0.333): 0.003*"chromosome" + 0.003*"genetic" + 0.003*"abs" + 0.002*"algorithm" + 0.002*"gen" + 0.002*"groupoids" + 0.002*"chromosomes" + 0.002*"number" + 0.002*"value" + 0.002*"groupoid"
+2025-04-04 17:34:01,123 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,123 - INFO - topic diff=0.022972, rho=0.333333
+2025-04-04 17:34:01,123 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,127 - INFO - -6.095 per-word bound, 68.4 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,127 - INFO - PROGRESS: pass 8, at document #1/1
+2025-04-04 17:34:01,127 - DEBUG - updating topics
+2025-04-04 17:34:01,128 - INFO - topic #0 (0.333): 0.003*"chromosome" + 0.002*"genetic" + 0.002*"number" + 0.002*"abs" + 0.002*"gen" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"chromosomes" + 0.002*"algorithm" + 0.002*"process"
+2025-04-04 17:34:01,128 - INFO - topic #1 (0.333): 0.003*"chromosome" + 0.003*"genetic" + 0.002*"abs" + 0.002*"algorithm" + 0.002*"gen" + 0.002*"groupoids" + 0.002*"chromosomes" + 0.002*"number" + 0.002*"value" + 0.002*"groupoid"
+2025-04-04 17:34:01,128 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,128 - INFO - topic diff=0.015999, rho=0.316228
+2025-04-04 17:34:01,128 - DEBUG - bound: at document #0
+2025-04-04 17:34:01,131 - INFO - -6.094 per-word bound, 68.3 perplexity estimate based on a held-out corpus of 1 documents with 1796 words
+2025-04-04 17:34:01,131 - INFO - PROGRESS: pass 9, at document #1/1
+2025-04-04 17:34:01,131 - DEBUG - updating topics
+2025-04-04 17:34:01,132 - INFO - topic #0 (0.333): 0.003*"chromosome" + 0.002*"genetic" + 0.002*"number" + 0.002*"abs" + 0.002*"gen" + 0.002*"groupoids" + 0.002*"groupoid" + 0.002*"chromosomes" + 0.002*"algorithm" + 0.002*"process"
+2025-04-04 17:34:01,132 - INFO - topic #1 (0.333): 0.003*"chromosome" + 0.002*"genetic" + 0.002*"abs" + 0.002*"algorithm" + 0.002*"gen" + 0.002*"groupoids" + 0.002*"chromosomes" + 0.002*"number" + 0.002*"value" + 0.002*"groupoid"
+2025-04-04 17:34:01,132 - INFO - topic #2 (0.333): 0.050*"chromosome" + 0.034*"genetic" + 0.019*"gen" + 0.018*"abs" + 0.015*"algorithm" + 0.014*"number" + 0.014*"groupoids" + 0.011*"groupoid" + 0.010*"process" + 0.010*"chromosomes"
+2025-04-04 17:34:01,132 - INFO - topic diff=0.011218, rho=0.301511
+2025-04-04 17:34:01,132 - DEBUG - starting a new internal lifecycle event log for LdaModel
+2025-04-04 17:34:01,132 - INFO - LdaModel lifecycle event {'msg': 'trained LdaModel<num_terms=606, num_topics=3, decay=0.5, chunksize=2000> in 0.04s', 'datetime': '2025-04-04T17:34:01.132671', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22631-SP0', 'event': 'created'}
